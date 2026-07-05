@@ -1,10 +1,8 @@
-[project]
-name = "flights-sql-dashboard"
-version = "0.1.0"
-requires-python = ">=3.12"
 dependencies = [
+    "groq>=0.32.0",
     "mysql-connector-python>=9.7.0",
     "pandas>=3.0.3",
+    "plotly>=6.0.0",
     "python-dotenv>=1.2.2",
     "scikit-learn>=1.9.0",
     "streamlit>=1.58.0",
