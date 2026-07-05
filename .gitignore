@@ -1,0 +1,34 @@
+# --- Secrets & credentials ---
+.env
+.env.*
+secrets.toml
+.streamlit/secrets.toml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter / notebooks (if you add any exploration notebooks) ---
+.ipynb_checkpoints/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs & local data dumps ---
+*.log
+*.sqlite3
+*.csv
